@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+
+.logo img{
+    width: 50%;
+    border: 2px solid white;
+    border-radius: 50px;
+    margin: 2px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.nav-list{
+    display: flex;
+    width: 70%;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.3s;
+}
+
+.nav-list li a:hover{
+    list-style: none;
+    color: grey;
+    transition-duration: 0.3s;
+}
+
+.rightNav{
+    width: 30%;
+    text-align: right;
+    padding: 0px 23px;
+}
+
+#search{
+    padding: 4px 18px;
+    font-size: 13px;
+    border-radius: 10px;
+    border: 2px solid grey;
+    outline: none;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../img/bg.jpg');
+    top: 0;
+    background-size: cover;
+    height: 100%;
+    background-blend-mode: darken;
+}
+
+.firstSection{
+    height: 100vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+
+.firstHalf{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 24px;
+}
+
+.secondHalf{
+    width: 38%;
+    margin-left: 5px;
+}
+
+.secondHalf img{
+    width: 158%;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    box-shadow: 0 0 20px 4px rgb(14 12 12);
+}
+.text-big{
+    font-size: 36px;
+}
+
+.text-small{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.btn{
+    padding: 4px 18px;
+    margin: 8px 8px;
+    border: 2px solid white;
+    border-radius: 25px;
+    font-size: 14px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.btn:hover{
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    transition-duration: 0.3s;
+    border: 2px solid white;
+    font-size: 16px;
+    padding: 4px 18px;
+    margin: 10px 10px;
+}
+
+.buttons{
+    margin: auto;
+}
+
+.btn-sm{
+    padding: 3px 10px;
+    vertical-align: middle;
+    transition-duration: 0.3s;
+}
+
+.btn-sm:hover{
+    color: black;
+    background-color: white;
+    transition-duration: 0.3s;
+}
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    max-width: 80%;
+}
+
+.section-left{
+    flex-direction: row-reverse;
+}
+
+.paras{
+    padding: 0px 60px;
+}
+
+.sectionTag{
+    padding: 16px 0px;
+}
+
+.thumbnail img{
+    width: 250px;
+    box-shadow: 0 0 30px 2px rgb(14 12 12);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.contact{
+    height: 73vh;
+    padding: 62px;
+    color: cornsilk;
+    background: url(/img/contact.jpg);
+    background-size: cover;
+}
+
+.text-center{
+    text-align: center;
+    padding: 18px;
+    font-size: 30px;
+}
+
+.form{
+    max-width: 50%;
+    margin: auto;
+}
+
+.form-input{
+    width: 100%;
+    font-size: 15px;
+    border: 2px solid grey;
+    border-radius: 25px;
+    margin: 12px -10px;
+    padding: 5px 15px;
+    outline: none;
+}
+
+.dark{
+    padding: 4px 20px;
+    transition-duration: 0.3s;
+    color: black;
+    border-radius: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+    background: none;
+    outline: none;
+    display: flex;
+    margin: auto;
+    font-size: 12px;
+}
+
+.dark:hover{
+    color: white;
+    background-color: black;
+    transition-duration: 0.3s;
+}
+
+.text-footer{
+    text-align: center;
+    padding: 6px 0px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    bottom: 0;
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
